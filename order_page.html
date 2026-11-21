@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Page</title>
+    <link rel="stylesheet" href="css/orderpage.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1>Order Page</h1>
+        <p>wellcome to hope Restaurant and thanks for choosing our restuarant </p>
+        <p>place your order</p>
+        <form> 
+            <label for="name"> full name </label>
+            <input type="text" id="name" placeholder="enter your name" required/>
+            
+            <label for="phone-number"> phone number</label>
+            <input type="number" id="phone number" placeholder="enter your phone number" required>
+
+            <label for="item"> food item</label>
+            <select>
+                <option> sepecial burger</option>
+                <option >pizza</option>
+                <option > chicken club</option>
+                <option > juice</option>
+                <option > cupcake</option>
+                <option >cake</option>
+            </select>
+
+            <label for="quantity">quantity</label>
+            <input type="number" min="1" value="1"> 
+
+            <button type="submit"> submit order</button>
+        </form>
+       <button> <a href="index.html" class="btn">Back to Menu</a></button>
+   </div>
+</body>
+</html>
